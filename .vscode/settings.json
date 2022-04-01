@@ -1,0 +1,38 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 16,
+    "editor.tabSize": 2,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.wordWrap": "bounded",
+    "files.associations": {
+        "js": "javascript",
+        "jsx": "javascriptreact",
+        "ts": "typescript",
+        "tsx": "typescriptreact",
+        "css": "css"
+    },
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    }
+}
